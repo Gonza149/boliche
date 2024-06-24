@@ -1,0 +1,105 @@
+[
+    {"model": "boliche.pista", "pk": 1, "fields": {"nombre": "Pista 1"}},
+    {"model": "boliche.pista", "pk": 2, "fields": {"nombre": "Pista 2"}},
+    {"model": "boliche.pista", "pk": 3, "fields": {"nombre": "Pista 3"}},
+    {"model": "boliche.pista", "pk": 4, "fields": {"nombre": "Pista 4"}},
+    {"model": "boliche.pista", "pk": 5, "fields": {"nombre": "Pista 5"}},
+
+
+    {"model": "boliche.empleado", "pk": 1, "fields": {"nombre": "Juan Pérez", "nro_documento": 12345678, "telefono": 1111111111}},
+    {"model": "boliche.empleado", "pk": 2, "fields": {"nombre": "María García", "nro_documento": 87654321, "telefono": 2222222222}},
+    {"model": "boliche.empleado", "pk": 3, "fields": {"nombre": "Carlos López", "nro_documento": 56789012, "telefono": 3333333333}},
+    {"model": "boliche.empleado", "pk": 4, "fields": {"nombre": "Jose Gonzalez", "nro_documento": 321654987, "telefono": 4444444444}},
+    {"model": "boliche.empleado", "pk": 5, "fields": {"nombre": "Fabrizio Rava", "nro_documento": 2341234423, "telefono": 5555555555}},
+    {"model": "boliche.empleado", "pk": 6, "fields": {"nombre": "Luis Alvaro Colque Conde", "nro_documento": 324324523, "telefono": 6666666666}},
+    {"model": "boliche.empleado", "pk": 7, "fields": {"nombre": "Ramiro Rosales", "nro_documento": 23454362, "telefono": 7777777777}},
+    {"model": "boliche.empleado", "pk": 8, "fields": {"nombre": "Gonzalo Rodriguez", "nro_documento": 324556656, "telefono": 8888888888}},
+    {"model": "boliche.empleado", "pk": 9, "fields": {"nombre": "Santiago Montes", "nro_documento": 3534642546, "telefono": 9999999999}},
+    {"model": "boliche.empleado", "pk": 10, "fields": {"nombre": "Tamara Candia", "nro_documento": 253462677, "telefono": 101010101010}},
+
+
+
+    {"model": "boliche.barra", "pk": 1, "fields": {"nombre": "Barra 1"}},
+    {"model": "boliche.barra", "pk": 2, "fields": {"nombre": "Barra 2"}},
+    {"model": "boliche.barra", "pk": 3, "fields": {"nombre": "Barra 3"}},
+    {"model": "boliche.barra", "pk": 4, "fields": {"nombre": "Barra 4"}},
+
+
+
+    {"model": "boliche.detallebarra", "pk": 1, "fields": {"empleado": 1, "barra": 1}},
+    {"model": "boliche.detallebarra", "pk": 2, "fields": {"empleado": 2, "barra": 1}},
+    {"model": "boliche.detallebarra", "pk": 3, "fields": {"empleado": 3, "barra": 1}},
+    {"model": "boliche.detallebarra", "pk": 4, "fields": {"empleado": 4, "barra": 2}},
+    {"model": "boliche.detallebarra", "pk": 5, "fields": {"empleado": 5, "barra": 2}},
+    {"model": "boliche.detallebarra", "pk": 6, "fields": {"empleado": 6, "barra": 3}},
+    {"model": "boliche.detallebarra", "pk": 7, "fields": {"empleado": 7, "barra": 3}},
+    {"model": "boliche.detallebarra", "pk": 8, "fields": {"empleado": 8, "barra": 3}},
+    {"model": "boliche.detallebarra", "pk": 9, "fields": {"empleado": 9, "barra": 4}},
+    {"model": "boliche.detallebarra", "pk": 10, "fields": {"empleado": 10, "barra": 4}},
+
+
+    {"model": "boliche.bebida", "pk": 1, "fields": {"nombre": "Whisky", "cantidad_ml": 1000}},
+    {"model": "boliche.bebida", "pk": 2, "fields": {"nombre": "Gin", "cantidad_ml": 800}},
+    {"model": "boliche.bebida", "pk": 3, "fields": {"nombre": "Agua tónica", "cantidad_ml": 1000}},
+    {"model": "boliche.bebida", "pk": 4, "fields": {"nombre": "Coca Cola", "cantidad_ml": 2500}},
+    {"model": "boliche.bebida", "pk": 5, "fields": {"nombre": "Fernet", "cantidad_ml": 1000}},
+    {"model": "boliche.bebida", "pk": 6, "fields": {"nombre": "Jugo de naranja", "cantidad_ml": 3000}},
+    {"model": "boliche.bebida", "pk": 7, "fields": {"nombre": "Vodka", "cantidad_ml": 750}},
+    {"model": "boliche.bebida", "pk": 8, "fields": {"nombre": "Ron", "cantidad_ml": 1000}},
+    {"model": "boliche.bebida", "pk": 9, "fields": {"nombre": "Licor de melón", "cantidad_ml": 1000}},
+
+
+
+    {"model": "boliche.venta", "pk": 1, "fields": {"fecha": "2024-05-27", "barra": 1}},
+    {"model": "boliche.venta", "pk": 2, "fields": {"fecha": "2024-05-28", "barra": 2}},
+    {"model": "boliche.venta", "pk": 3, "fields": {"fecha": "2024-05-29", "barra": 3}},
+    {"model": "boliche.venta", "pk": 4, "fields": {"fecha": "2024-05-29", "barra": 4}},
+    {"model": "boliche.venta", "pk": 5, "fields": {"fecha": "2024-05-30", "barra": 4}},
+    {"model": "boliche.venta", "pk": 6, "fields": {"fecha": "2024-05-31", "barra": 4}},
+
+
+
+    {"model": "boliche.trago", "pk": 1, "fields": {"nombre": "Fernet con coca", "volumen_ml": 300, "precio": 3000}},
+    {"model": "boliche.trago", "pk": 2, "fields": {"nombre": "Whiscola", "volumen_ml": 100, "precio": 2000}},
+    {"model": "boliche.trago", "pk": 3, "fields": {"nombre": "Gin tonic", "volumen_ml": 100, "precio": 1500}},
+    {"model": "boliche.trago", "pk": 4, "fields": {"nombre": "Destornillador", "volumen_ml": 100, "precio": 1000}},
+    {"model": "boliche.trago", "pk": 5, "fields": {"nombre": "Vodka y melón", "volumen_ml": 150, "precio": 2000}},
+
+
+
+    {"model": "boliche.detalleventa", "pk": 1, "fields": {"venta": 1, "precio": 3000, "trago": 1, "cantidad": 1}},
+    {"model": "boliche.detalleventa", "pk": 2, "fields": {"venta": 1, "precio": 3000, "trago": 1, "cantidad": 1}},
+    {"model": "boliche.detalleventa", "pk": 3, "fields": {"venta": 1, "precio": 2000, "trago": 2, "cantidad": 2}},
+    {"model": "boliche.detalleventa", "pk": 4, "fields": {"venta": 2, "precio": 1000, "trago": 4, "cantidad": 1}},
+    {"model": "boliche.detalleventa", "pk": 5, "fields": {"venta": 3, "precio": 2000, "trago": 2, "cantidad": 2}},
+    {"model": "boliche.detalleventa", "pk": 6, "fields": {"venta": 3, "precio": 1500, "trago": 3, "cantidad": 2}},
+    {"model": "boliche.detalleventa", "pk": 7, "fields": {"venta": 4, "precio": 1500, "trago": 3, "cantidad": 4}},
+    {"model": "boliche.detalleventa", "pk": 8, "fields": {"venta": 4, "precio": 2000, "trago": 5, "cantidad": 1}},
+    {"model": "boliche.detalleventa", "pk": 9, "fields": {"venta": 5, "precio": 3000, "trago": 1, "cantidad": 1}},
+    {"model": "boliche.detalleventa", "pk": 10, "fields": {"venta": 6, "precio": 3000, "trago": 1, "cantidad": 1}},
+    {"model": "boliche.detalleventa", "pk": 11, "fields": {"venta": 6, "precio": 1000, "trago": 4, "cantidad": 1}},
+    {"model": "boliche.detalleventa", "pk": 12, "fields": {"venta": 6, "precio": 1500, "trago": 3, "cantidad": 3}},
+
+
+
+    {"model": "boliche.detalletrago", "pk": 1, "fields": {"cantidad": 200, "bebida": 4, "trago": 1}},
+    {"model": "boliche.detalletrago", "pk": 2, "fields": {"cantidad": 100, "bebida": 5, "trago": 1}},
+    {"model": "boliche.detalletrago", "pk": 3, "fields": {"cantidad": 30, "bebida": 1, "trago": 2}},
+    {"model": "boliche.detalletrago", "pk": 4, "fields": {"cantidad": 70, "bebida": 4, "trago": 2}},
+    {"model": "boliche.detalletrago", "pk": 5, "fields": {"cantidad": 30, "bebida": 2, "trago": 3}},
+    {"model": "boliche.detalletrago", "pk": 6, "fields": {"cantidad": 70, "bebida": 3, "trago": 3}},
+    {"model": "boliche.detalletrago", "pk": 7, "fields": {"cantidad": 60, "bebida": 7, "trago": 4}},
+    {"model": "boliche.detalletrago", "pk": 8, "fields": {"cantidad": 100, "bebida": 6, "trago": 4}},
+    {"model": "boliche.detalletrago", "pk": 9, "fields": {"cantidad": 60, "bebida": 7, "trago": 5}},
+    {"model": "boliche.detalletrago", "pk": 10, "fields": {"cantidad": 90, "bebida": 9, "trago": 5}}
+
+]
+
+
+
+
+
+
+
+
+
